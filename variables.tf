@@ -250,7 +250,7 @@ variable "autoscaler_location_policy" {
 variable "node_disk_size" {
   description = "Node disk size in GB"
   type        = string
-  default     = "100"
+  default     = "60"
 }
 
 variable "node_disk_type" {
